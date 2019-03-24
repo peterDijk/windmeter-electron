@@ -7,7 +7,7 @@ float sensorVoltage = 0; //Variable that stores the voltage (in Volts) from the 
 double windSpeed = 0; // Wind speed in meters per second (m/s)
  
 float voltageConversionConstant = .000805860805861; //This constant maps the value provided from the analog read function, which ranges from 0 to 4095, to actual voltage, which ranges from 0V to 3.3V
-int sensorDelay = 1000; //Delay between sensor readings, measured in milliseconds (ms)
+int sensorDelay = 10000; //Delay between sensor readings, measured in milliseconds (ms)
  
 //Anemometer Technical Variables
 //The following variables correspond to the anemometer sold by Adafruit, but could be modified to fit other anemometers.
